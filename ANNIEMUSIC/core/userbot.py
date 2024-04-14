@@ -11,35 +11,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="oxygen1",
+            name="ᴘʀᴇᴍɪᴜᴍ1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="oxygen2",
+            name="ᴘʀᴇᴍɪᴜᴍ2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="oxygen3",
+            name="ᴘʀᴇᴍɪᴜᴍ3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="oxygen4",
+            name="ᴘʀᴇᴍɪᴜᴍ4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="oxygen5",
+            name="ᴘʀᴇᴍɪᴜᴍ5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -47,7 +47,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝔹𝕆𝕋˼ 🫧 Assistant starting...")
+        LOGGER(__name__).info(f"˹ ᏢᏒᎬᎷᏆᏌᎷ ꭙ ᏴᏫᎢ˼💖 Assistant starting...")
         if config.STRING1:
             await self.one.start()
             try:
@@ -58,7 +58,7 @@ class Userbot(Client):
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝔹𝕆𝕋˼ 🫧 Assistant Start.........")
+                await self.one.send_message(config.LOGGER_ID, "˹ ᏢᏒᎬᎷᏆᏌᎷ ꭙ ᏴᏫᎢ˼💖 Assistant Start.........")
                                          
             except:
                 LOGGER(__name__).error(
@@ -76,7 +76,7 @@ class Userbot(Client):
             try:
                 await self.two.join_chat("+H5IrqVsgKYU3ODI1")
                 
-                await self.one.join_chat("CHATTING_2024")
+                await self.one.join_chat("WHOxCARES_0")
             except:
                 pass
             assistants.append(2)
@@ -98,12 +98,12 @@ class Userbot(Client):
             try:
                 await self.three.join_chat("+H5IrqVsgKYU3ODI1")
                 
-                await self.one.join_chat("CHATTING_2024")
+                await self.one.join_chat("WHOxCARES_0")
             except:
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝔹𝕆𝕋˼ 🫧 Assistant Started")
+                await self.three.send_message(config.LOGGER_ID, "˹ᏢᏒᎬᎷᏆᏌᎷ ꭙ ᏴᏫᎢ˼💖 Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -120,12 +120,12 @@ class Userbot(Client):
             try:
                 await self.four.join_chat("+H5IrqVsgKYU3ODI1")
                 
-                await self.one.join_chat("CHATTING_2024")
+                await self.one.join_chat("WHOxCARES_0")
             except:
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝔹𝕆𝕋˼ 🫧 Assistant Started")
+                await self.four.send_message(config.LOGGER_ID, "˹ᏢᏒᎬᎷᏆᏌᎷ ꭙ ᏴᏫᎢ˼💖 Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -142,12 +142,12 @@ class Userbot(Client):
             try:
                 await self.five.join_chat("+H5IrqVsgKYU3ODI1")
                 
-                await self.one.join_chat("CHATTING_2024")
+                await self.one.join_chat("C")
             except:
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝔹𝕆𝕋˼ 🫧 Assistant Started")
+                await self.five.send_message(config.LOGGER_ID, "˹ᏢᏒᎬᎷᏆᏌᎷ ꭙ ᏴᏫᎢ˼💖 Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -160,7 +160,7 @@ class Userbot(Client):
             LOGGER(__name__).info(f"Assistant Five Started as {self.five.name}")
 
     async def stop(self):
-        LOGGER(__name__).info(f"˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ 𝔹𝕆𝕋˼ 🫧 Stopping Assistants...")
+        LOGGER(__name__).info(f"˹ᏢᏒᎬᎷᏆᏌᎷ ꭙ ᏴᏫᎢ˼💖 Stopping Assistants...")
         try:
             if config.STRING1:
                 await self.one.stop()

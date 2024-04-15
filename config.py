@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","@Premium5119")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "oxgenxBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "premiumopxBot")
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , "𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐗 𝐁𝐎𝐓")
 #get Your Assistant User name

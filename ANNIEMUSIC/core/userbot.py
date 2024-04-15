@@ -47,7 +47,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"˹ ᏢᏒᎬᎷᏆᏌᎷ ꭙ ᏴᏫᎢ˼💖 Assistant starting...")
+        LOGGER(__name__).info(f"˹ᏢᏒᎬᎷᏆᏌᎷ ꭙ ᏴᏫᎢ˼💖 Assistant starting...")
         if config.STRING1:
             await self.one.start()
             try:
@@ -58,7 +58,7 @@ class Userbot(Client):
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "˹ ᏢᏒᎬᎷᏆᏌᎷ ꭙ ᏴᏫᎢ˼💖 Assistant Start.........")
+                await self.one.send_message(config.LOGGER_ID, "˹ᏢᏒᎬᎷᏆᏌᎷ ꭙ ᏴᏫᎢ˼💖 Assistant Start.........")
                                          
             except:
                 LOGGER(__name__).error(
@@ -142,7 +142,7 @@ class Userbot(Client):
             try:
                 await self.five.join_chat("WHOxCARES_0")
                 
-                await self.one.join_chat("C")
+                await self.one.join_chat("c")
             except:
                 pass
             assistants.append(5)
